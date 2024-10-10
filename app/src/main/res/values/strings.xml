@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">UnitConverter</string>
+    <string name="unit_converter_app">𝐔𝐧𝐢𝐭 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐞𝐫 𝐀𝐩𝐩</string>
+    <string name="enter_the_kg_value_below">Enter the value below:</string>
+    <string name="convert">Convert</string>
+    <string name="value_in_pound">Result:</string>
+    <string name="result">Result:</string>
+
+    <string-array name="unit_options">
+        <item>Kilograms to Pounds</item>
+        <item>Pounds to Kilograms</item>
+    </string-array>
+</resources>

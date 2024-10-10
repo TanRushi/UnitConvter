@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/image"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/unit_converter_app"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="35dp"
+        android:textSize="35sp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:layout_marginStart="25dp"
+        android:autofillHints=""
+        android:text="@string/enter_the_kg_value_below"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints=""
+        android:hint="Enter value"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        tools:ignore="DuplicateSpeakableTextCheck,LabelFor,TextFields,VisualLintTextFieldSize" />
+
+    <Spinner
+        android:id="@+id/unitSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:layout_marginTop="10dp"
+        android:minHeight="48dp"
+        android:entries="@array/unit_options" />
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/convert"
+        android:textSize="35sp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_marginTop="35dp"
+        tools:ignore="VisualLintButtonSize" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/result"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+
+</LinearLayout>
